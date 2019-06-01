@@ -1,0 +1,24 @@
+.login {
+    background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+}
+
+.signup {
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+}
+
+
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 800px}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
