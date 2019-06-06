@@ -125,15 +125,6 @@ ponerlo como un servicio, para cuando baje y suba el sistema:
 
       user1$ sudo pm2 startup systemd
 
-## MUY MUY IMPORTANTE: Deshabilitar SELINUX
-
-          user1$ sudo vim /etc/sysconfig/selinux
-
-                SELINUX=disabled
-
-          user1$ sudo reboot      
-
-
 ### Configuración del proxy inverso en NGINX para cada aplicación:
 
       // /etc/nginx/nginx.config
